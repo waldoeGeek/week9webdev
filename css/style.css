@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Cinzel|Noto+Serif|Playfair+Display|Poppins");
+html, body {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-family: Abril Fatface;
+}
+
+p {
+  color: blue;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.div1, .div2, .div3 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+p.large-text {
+  font-size: 2em;
+}
+
+.div2 > .nested-heading h2 {
+  text-align: left;
+  color: lightcoral;
+}
